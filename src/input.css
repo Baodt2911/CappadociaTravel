@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* bdt = Baodt */
+.bdt-icon {
+    @apply w-6 h-6;
+}
+
+.bdt-text-header {
+    @apply font-normal hover:text-gray-300;
+}
+
+.bdt-active-page {
+    @apply relative  hover:text-white after:absolute after:left-0 after:bottom-0 after:w-full after:h-1 after:bg-white after:translate-y-5;
+}
+.bdt-item-dot{
+    @apply font-bold text-3xl leading-5;
+}
+.bdt-icon{
+    @apply text-2xl text-white cursor-pointer;
+}
+.bdt-direction{
+    @apply w-16 h-16 flex justify-center items-center;
+}
+.bdt-item-img{
+    @apply basis-1/5 relative border border-gray-300 rounded-2xl cursor-pointer;
+}
+.bdt-button{
+    @apply w-40 h-10 bg-yellow-700 rounded-xl text-white mt-11;
+}
+.bdt-img{
+    @apply object-cover object-center w-full h-full ;
+}
+.bdt-rate{
+    @apply absolute top-3 right-3 bg-white rounded-xl px-2;
+}
+.bdt-star{
+    @apply text-yellow-400; 
+}
+.bdt-text{
+    @apply ml-6 mt-3 mb-4 font-semibold text-xl;
+}
+.bdt-price{
+    @apply ml-6 text-xs  ;
+}
+.bdt-book{
+    @apply ml-14 text-xs text-blue-700;;
+}
+.bdt-img-get-with-us{
+    @apply  absolute w-72;
+}
+.bdt-number{
+    @apply w-12  rounded-2xl bg-yellow-700 pl-1;
+}
+.bdt-text-number{
+    @apply  bg-white px-2  rounded-full text-xs;
+} 
+.bdt-item-gallery-img{
+    @apply basis-1/5;
+}
