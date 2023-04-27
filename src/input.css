@@ -11,7 +11,9 @@
 .bdt-text-header {
     @apply font-normal hover:text-gray-300;
 }
-
+.bdt-text-content{
+    @apply text-3xl font-bold font-Montserrat;
+}
 .bdt-active-page {
     @apply relative  hover:text-white after:absolute after:left-0 after:bottom-0 after:w-full after:h-1 after:bg-white after:translate-y-5;
 }
@@ -59,4 +61,34 @@
 } 
 .bdt-item-gallery-img{
     @apply basis-1/5;
+}
+.bdt-img-our-blog{
+    @apply relative basis-1/3 rounded-2xl border border-gray-400;
+}
+.bdt-item-guide{
+    @apply   basis-1/4 h-96 flex-shrink  overflow-hidden transition-all duration-500 hover:basis-3/5 hover:flex ;
+}
+.bdt-img-guide{
+    @apply basis-2/4 flex items-end justify-center w-full h-full bg-no-repeat bg-cover bg-center  rounded-xl cursor-pointer  ;
+}
+.bdt-name{
+    @apply text-white text-xl font-Montserrat mb-1 ;
+}
+.bdt-infor-guide{
+    @apply basis-2/4 bg-yellow-700 text-white font-thin p-3 text-sm rounded-e-xl cursor-pointer select-none;
+}
+.bdt-name-guide{
+    @apply text-2xl font-semibold font-Montserrat;
+}
+.bdt-languages{
+    @apply mt-4 mb-3;
+}
+.bdt-experience{
+    @apply mb-4;
+}
+.bdt-introduction{
+    @apply text-xs;
+}
+.bdt-input{
+    @apply outline-none border border-gray-300 rounded-lg pl-2 text-sm py-2; 
 }

@@ -12,6 +12,7 @@ module.exports = {
         grayOpacity: '#CECECE91'
 
       }
+
     },
   },
   plugins: [],
